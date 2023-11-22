@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        echo 'Hello Blue Ocean'
+        bat 'echo Hello'
       }
     }
 
